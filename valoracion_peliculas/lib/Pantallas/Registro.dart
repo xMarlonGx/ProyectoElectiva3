@@ -11,16 +11,17 @@ class _RegistroState extends State<Registro> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Cuerpo(),
+      body: body(),
     );
   }
 
-  Widget Cuerpo() {
+  Widget body() {
     return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Usuario(),
+          Correo(),
           Password(),
           Nombre(),
           Apellido(),
@@ -65,6 +66,21 @@ class _RegistroState extends State<Registro> {
     );
   }
 
+  Widget Correo() {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
+      child: TextFormField(
+        decoration: InputDecoration(
+          hintText: "Correo",
+          fillColor: Colors.white,
+          filled: true,
+          border: OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
+          prefixIcon: const Icon(Icons.person),
+        ),
+      ),
+    );
+  }
+
   Widget Nombre() {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
@@ -74,7 +90,7 @@ class _RegistroState extends State<Registro> {
           fillColor: Colors.white,
           filled: true,
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
-          prefixIcon: const Icon(Icons.person),
+          prefixIcon: const Icon(Icons.auto_stories_outlined),
         ),
       ),
     );
@@ -89,7 +105,7 @@ class _RegistroState extends State<Registro> {
           fillColor: Colors.white,
           filled: true,
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
-          prefixIcon: const Icon(Icons.person),
+          prefixIcon: const Icon(Icons.auto_stories_outlined),
         ),
       ),
     );

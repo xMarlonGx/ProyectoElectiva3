@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "956626330540",
+    "firebase_url": "https://myapppeliculas-default-rtdb.firebaseio.com",
+    "project_id": "myapppeliculas",
+    "storage_bucket": "myapppeliculas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956626330540:android:71e1263827248f52881009",
+        "android_client_info": {
+          "package_name": "com.example.valoracion_peliculas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956626330540-ltpbjjdon6kpsrgigk5nnbmdat1q6he5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAubc_KIkQR6Nlb68re8u9tfbrOBxMfugs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956626330540-ltpbjjdon6kpsrgigk5nnbmdat1q6he5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

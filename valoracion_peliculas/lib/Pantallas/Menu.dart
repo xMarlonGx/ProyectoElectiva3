@@ -32,7 +32,7 @@ class _MenuState extends State<Menu> {
         padding:
             const EdgeInsets.only(right: 10, left: 10, top: 10, bottom: 10),
         child: Container(
-          padding: EdgeInsets.only(left: 330, top: 5),
+          padding: EdgeInsets.only(left: 320, top: 5),
           child: Icon(
             Icons.person,
             color: Colors.black,

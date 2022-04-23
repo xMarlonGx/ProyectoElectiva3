@@ -24,7 +24,6 @@ class _myapppeliculasState extends State<myapppeliculas> {
   void initState() {
     // TODO: implement initState
     super.initState();
-
     getUsuarios();
   }
 
